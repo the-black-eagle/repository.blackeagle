@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+	<variable name="set_yes_no">
+	<value condition="SubString(Container(12).ListItem.Label,OFF)">FFFF0000</value>
+	<value condition="SubString(Container(12).ListItem.Label,ON)">FF00FF00</value>
+	<value>FF0000FF</value>
+	</variable>
+</includes>
