@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="script.database.cleaner" name="Video Database Cleaner" provider-name="black_eagle, BatterPudding." version="0.5.9">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.myconnpy" version="1.1.7" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.script" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">A Script to clean Kodi's video database</summary>
+    <description lang="en">This program add-on will clean streams, old missing files and general junk from your video database. Works with both MySQL and SQLite libraries.As well as removing old streams and missing files, the script can optionally remove or rename a specific path.  Please see the README or the forum thread for details (http://forum.kodi.tv/showthread.php?tid=272112).</description>
+    <disclaimer lang="en_GB">Whilst every effort has been taken to ensure it doesn't, this script could break your database. Always make sure you back it up !!</disclaimer>
+    <forum>http://forum.kodi.tv/showthread.php?tid=272112</forum>
+  </extension>
+</addon><addon id="script.radio.streaming.helper" name="Streaming Radio Helper" provider-name="black_eagle" version="0.6.9">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.script" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">A Script to help skins display icy radio streams correctly as separate artist and track</summary>
+    <description lang="en">Parses ICY and Shoutcast radio streams into window properties for a skin to display.  Also provides local or online logos, current artist thumb and banner.
+    Images are downloaded and cached locally from fanart.tv and TheAudioDB. Artist and track info is collected from TheAudioDB and last.fm</description>
+    <summary lang="pl">Skrypt pomaga skórce poprawnie wyświetlać nazwę artysty i tytuł piosenki dla surowych strumieni radiowych (wymagane wsparcie króry).</summary>
+    <description lang="pl">Analizuje surowy strumień radiowy, zapisuje nazwę artysty, tytuł piosenki do wlaściwości okna i udostępnia je skórce. Udostępnia też lokalne lub online grafiki (logo, baner i miniaturę artysty).</description>
+
+  </extension>
+</addon></addons>
