@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <addon id="repository.blackeagle" name="Black_Eagles Repository" version="0.1.0" provider-name="Black_Eagle">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
         <extension point="xbmc.addon.repository" name="Black_Eagles Repository">
-            <info compressed="false">https://raw.github.com/the-black-eagle/repository.blackeagle/master/_repo/addons.xml</info>
-            <checksum>https://raw.github.com/the-black-eagle/repository.blackeagle/master/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/the-black-eagle/repository.blackeagle/master/_repo/</datadir>
-            <hashes>false</hashes>
+            <info compressed="false">https://raw.github.com/the-black-eagle/repository.blackeagle/master/addons.xml</info>
+            <checksum>https://raw.github.com/the-black-eagle/repository.blackeagle/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/the-black-eagle/repository.blackeagle/master/zips</datadir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>Black_Eagles Repository</summary>
             <description>Contains add-ons for Kodi written by Black_Eagle.</description>
             <platform>all</platform>
+            <assets>
+            <icon>icon.jpg</icon>
+        </assets>
     </extension>
 </addon>
