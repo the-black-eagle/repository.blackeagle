@@ -26,4 +26,37 @@
     <description lang="pl">Analizuje surowy strumień radiowy, zapisuje nazwę artysty, tytuł piosenki do wlaściwości okna i udostępnia je skórce. Udostępnia też lokalne lub online grafiki (logo, baner i miniaturę artysty).</description>
 
   </extension>
+</addon><addon id="skin.estuary.srh.version" name="Estuary Streaming Radio Helper mod" provider-name="black_eagle, pkscout, phil65, Ichabod Fletchman" version="1.0.1">
+    <requires>
+        <import addon="xbmc.gui" version="5.13.0" />
+    </requires>
+    <extension debugging="false" point="xbmc.gui.skin">
+        <res aspect="4:3" default="false" folder="xml" height="1440" width="1920" />
+        <res aspect="3:2" default="false" folder="xml" height="1280" width="1920" />
+        <res aspect="16:10" default="false" folder="xml" height="1200" width="1920" />
+        <res aspect="17:9" default="false" folder="xml" height="1080" width="2040" />
+        <res aspect="16:9" default="true" folder="xml" height="1080" width="1920" />
+        <res aspect="21:9" default="false" folder="xml" height="1080" width="2560" />
+        <res aspect="19.5:9" default="false" folder="xml" height="1080" width="2338" />
+        <res aspect="18:9" default="false" folder="xml" height="1080" width="2160" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <news>
+v.1.0.1
+- Initial Version - still very much W.I.P
+        </news>
+        <summary lang="en_GB">black_eagle's mod to the Estuary skin by phil65.</summary>
+        <description lang="en_GB">Various mods to Estuary, including Artist Slideshow support, Straming Radio Helper support and ability to customize home screen and home screen widgets. Based off pkscout's mod of Estuary.</description>
+        <disclaimer lang="en_GB">You can report issues at https://github.com/the-black-eagle/skin.estuary.srh.version&gt;</disclaimer>
+        <platform>all</platform>
+        <license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <screenshot>resources/screenshot012.png</screenshot>
+            <screenshot>resources/screenshot013.png</screenshot>
+            <screenshot>resources/screenshot014.png</screenshot>
+            <screenshot>resources/screenshot015.png</screenshot>
+            <screenshot>resources/screenshot016.png</screenshot>
+        </assets>
+    </extension>
 </addon></addons>
